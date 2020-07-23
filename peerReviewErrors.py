@@ -50,7 +50,8 @@ playAgain = 'yes'
 #while playAgain = 'yes' or playAgain = 'y':
 while playAgain == 'yes' or playAgain == 'y': # = operator is for operations, == is testing whether the value is true
 	displayIntro()
-	caveNumber = choosecave()
+	#caveNumber = choosecave()
+	caveNumber = chooseCave() # Python is case sensitive, wrong copy of class name
 	checkCave(caveNumber)
     
 	print('Do you want to play again? (yes or no)')
