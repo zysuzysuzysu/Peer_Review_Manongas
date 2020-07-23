@@ -33,6 +33,7 @@ def checkCave(chosenCave):
 	time.sleep(2)
 	print('It is dark and spooky...')
 	#sleep for 2 seconds
+	#sleep for 3 seconds # comment description does not match what it does (3 seconds)
 	time.sleep(3)
 	print('A large dragon jumps out in front of you! He opens his jaws and...')
 	print()
