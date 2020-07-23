@@ -1,8 +1,8 @@
 # This is a header for the application
 # You should read this header and insert your name and your date below as part of the peer review
 # This is a typical part of any program
-# Author: <author>
-# Creation Date: <date>
+# Author: <Suzanne Marie Manongas>
+# Creation Date: <July 23, 2020>
 # Below is a simple program with 10 issues (some are syntax errors and some are logic errors.  You need to identify the issues and correct them.
 
 import random
@@ -17,9 +17,12 @@ def displayIntro():
 
 def chooseCave():
     cave = ''
-	while cave != '1' and cave != '2':
-		print('Which cave will you go into? (1 or 2)')
-		cave = input()
+	#while cave != '1' and cave != '2':
+	#	print('Which cave will you go into? (1 or 2)')
+	#	cave = input()
+    while cave != '1' and cave != '2':
+        print('Which cave will you go into? (1 or 2)')
+        cave = input() # Indention was not 4 spaces
 
 	return caves
 
