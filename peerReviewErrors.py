@@ -50,6 +50,7 @@ def checkCave(chosenCave):
 playAgain = 'yes'
 #while playAgain = 'yes' or playAgain = 'y':
 while playAgain == 'yes' or playAgain == 'y': # = operator is for operations, == is testing whether the value is true
+	print() # display next line for more readable output
 	displayIntro()
 	#caveNumber = choosecave()
 	caveNumber = chooseCave() # Python is case sensitive, wrong copy of class name
@@ -60,4 +61,3 @@ while playAgain == 'yes' or playAgain == 'y': # = operator is for operations, ==
 	if playAgain == "no":
 		#print("Thanks for planing")
 		print("Thanks for playing") # misspelled word for the ending message
-
