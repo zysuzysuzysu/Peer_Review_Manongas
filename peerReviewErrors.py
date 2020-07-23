@@ -47,7 +47,8 @@ def checkCave(chosenCave):
 		print('Gobbles you down in one bite!') # Forgot parenthesis in print method
 
 playAgain = 'yes'
-while playAgain = 'yes' or playAgain = 'y':
+#while playAgain = 'yes' or playAgain = 'y':
+while playAgain == 'yes' or playAgain == 'y': # = operator is for operations, == is testing whether the value is true
 	displayIntro()
 	caveNumber = choosecave()
 	checkCave(caveNumber)
